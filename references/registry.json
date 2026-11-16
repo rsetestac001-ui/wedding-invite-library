@@ -422,7 +422,7 @@
       "reference_image_path": "references/originals/WR-0009.jpg",
       "image_sha256": "9ba664acfe4a8f507d1672507fcae84e129a1e3ca848747971fd61baf7125884",
       "capture_method": "physical_pc_screenshot",
-      "status": "reference_saved_generation_pending",
+      "status": "completed_two_design_drafts",
       "exclude_from_next_reference": true,
       "visual_signature": "Aanisah and Wilson；奶白壓紋紙；頂部兩側細花枝；底部維港建築與右側高樓金灰線稿；SAT15NOV2025；Hilton Garden Inn Mongkok；上午三欄",
       "duplicate_check": "商品ID未出現，與前八款圖案、姓名及資訊分區不同。",
@@ -490,7 +490,26 @@
           0.17
         ]
       },
-      "notes": "只取最前方完整英文白帖，忽略酒紅封套、金色封面及道具。"
+      "notes": "最終採第3張參考重畫與第4張金線整理版；兩張各為單一完整英文資料主面。",
+      "generated_image_count": 4,
+      "final_reference_image_number": 3,
+      "final_variation_image_number": 4,
+      "production_method": {
+        "reference": "text_only_generation",
+        "variation": "image_edit_of_reference_draft_3"
+      },
+      "rejected_attempts": [
+        {
+          "image_number": 1,
+          "reason": "姓名花體過於誇張、正文偏高及右側高樓偏窄。"
+        },
+        {
+          "image_number": 2,
+          "reason": "姓名顏色錯成深灰，邀請語及地址新增標點。"
+        }
+      ],
+      "fidelity_note": "保留奶白紙、兩角花枝與城市高樓分區及完整文案的設計重畫；花形、樓宇細節與部分資訊位置仍與原帖有差異，不宣稱精確還原。",
+      "layer_check": "第4張沿第3張編輯，保留灰褐花瓣細線、葉脈、建築窗格、山體排線及海面船隻；整理金色花瓣外線與選定建築外線，移除金色小點及窗格碎金，沒有擦白底圖。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
