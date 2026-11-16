@@ -2,7 +2,7 @@
   "schema_version": 2,
   "title": "喜帖原圖防重複紀錄",
   "updated_date": "2026-11-16",
-  "coverage": "已確認收錄本對話七款；更早歷史原圖尚未全面補登。",
+  "coverage": "已確認收錄本對話八款；更早歷史原圖尚未全面補登。",
   "policy": {
     "before_selection": "每次下一款先讀此紀錄；比較商品編號、原圖及構圖特徵。",
     "same_product": "同商品已有款式先跳過；同商品確有不同款時，須目視證實並用不同款式ID記錄。",
@@ -257,7 +257,7 @@
       "image_sha256": "9d5ad820174543b4503561b6c37f134a1ce39dd5016e13785336c529cb379df6",
       "capture_method": "physical_pc_screenshot",
       "visual_signature": "Chong & Mong；白底；兩側空心金線花枝配極淡灰綠彩印葉；底部33 Glasserie草地座椅花拱門場地水彩；NOV29 2025；三欄時間",
-      "status": "reference_saved_generation_pending",
+      "status": "referenced_redraw_failed",
       "exclude_from_next_reference": true,
       "gold_mode": "整理原有金線",
       "duplicate_check": "商品ID未用；與WR-0002同屬場地類，但原圖水彩為座椅草地花拱門，非GLAM建築，金線與文字構圖不同。",
@@ -310,7 +310,80 @@
           0.615
         ]
       },
-      "notes": "只取最前面白色英文完整資料主面；後方酒紅中文背面及信封忽略。"
+      "notes": "四稿純文字生成，未做變奏；同次任務換新款WR-0008繼續。",
+      "generated_image_count": 4,
+      "final_reference_image_number": null,
+      "final_variation_image_number": null,
+      "rejected_attempts": [
+        {
+          "image_number": 1,
+          "reason": "灰綠印葉偏深，新增時間欄分隔線，字級偏大。"
+        },
+        {
+          "image_number": 2,
+          "reason": "花枝位置過高及拱門偏大。"
+        },
+        {
+          "image_number": 3,
+          "reason": "接待圖示錯成戒指，拱門偏小。"
+        },
+        {
+          "image_number": 4,
+          "reason": "圖示修正後文字及花枝位置再偏移，未通過。"
+        }
+      ]
+    },
+    {
+      "id": "WR-0008",
+      "first_recorded_date": "2026-11-16",
+      "timezone": "Asia/Hong_Kong",
+      "shop": "喜加喜設計",
+      "platform": "taobao",
+      "product_id": "1085291229804",
+      "source_url": "https://item.taobao.com/item.htm?id=1085291229804",
+      "reference_image_path": "references/originals/WR-0008.jpg",
+      "image_sha256": "39c034f6cd123738265683c67190b23ddb671200d99bf0e1ab38efb26cf294a7",
+      "capture_method": "physical_pc_screenshot",
+      "status": "reference_saved_generation_pending",
+      "exclude_from_next_reference": true,
+      "visual_signature": "Janet & Fredie；淡藍銀灰雲霧水彩紙底；上方富士山雪峰與碎金山脊；金點；NOV16 2030；HARBOUR GRAND KOWLOON；三欄6/7/8PM",
+      "gold_mode": "整理原圖既有山脊碎金與金點，非新增花草",
+      "duplicate_check": "商品編號與現有七款均不同，山景題材亦未出現。",
+      "measurement_basis": "按原圖最前面英文帖四角校正約2:3；主要圖案採目視比例估算。",
+      "measurements": {
+        "mountain_bbox": [
+          0.05,
+          0.22,
+          0.88,
+          0.21
+        ],
+        "family_text_y": [
+          0.35,
+          0.37
+        ],
+        "names_bbox": [
+          0.08,
+          0.4,
+          0.85,
+          0.17
+        ],
+        "invitation_y": [
+          0.61,
+          0.63
+        ],
+        "date_y": 0.7,
+        "venue_y": [
+          0.77,
+          0.8,
+          0.82
+        ],
+        "icons_y": 0.89,
+        "timing_y": [
+          0.94,
+          0.96
+        ]
+      },
+      "notes": "最前方完整英文主面；後方中文主面與藍封套忽略。細字另以同款放大圖核實。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
