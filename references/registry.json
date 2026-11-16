@@ -62,10 +62,27 @@
       "image_sha256": "753f1c9511647fcdca2f464e8bd3ee78bc0fb1d07523ee8028efdbf7a56a5561",
       "visual_signature": "奶白珠光紙；四角細碎粉紅彩印花與金線花；左上縱向兩花、右上單花；底部沿邊花帶與中間獨立輪廓花；Cathy and Nicholas；NOV 30 2025；兩組時間",
       "capture_method": "physical_pc_screenshot",
-      "status": "reference_selected_generation_pending",
+      "status": "completed_two_designs",
       "exclude_from_next_reference": true,
       "duplicate_check": "商品編號未出現於現有紀錄，與 WR-0001 及 WR-0002 的構圖不同。",
-      "notes": "只取最前面英文婚宴主面；沒有使用後方酒紅封套。"
+      "notes": "只取最前面英文婚宴主面；沒有使用後方酒紅封套。",
+      "generated_image_count": 4,
+      "final_reference_image_number": 2,
+      "final_variation_image_number": 4,
+      "production_method": {
+        "reference": "text_only_generation",
+        "variation": "image_edit_of_accepted_reference"
+      },
+      "rejected_attempts": [
+        {
+          "image_number": 1,
+          "reason": "花頭過大，淡粉花過於完整及突出；縮小與加深沿邊裁切後純文字重生。"
+        },
+        {
+          "image_number": 3,
+          "reason": "金線刪減過多，花形變得過於規整；從合格第2張重新編輯，保留自然輪廓與少量摺線。"
+        }
+      ]
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
