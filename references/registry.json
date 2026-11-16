@@ -613,7 +613,7 @@
       "reference_image_path": "references/originals/WR-0011.jpg",
       "image_sha256": "dc501187f641b577ace01c33dcfdcd1cd2e12d461cc0b305a3dbd70e611d3367",
       "capture_method": "physical_pc_screenshot",
-      "status": "reference_saved_generation_pending",
+      "status": "completed_two_design_drafts",
       "exclude_from_next_reference": true,
       "visual_signature": "酒紅橫版；Hui Yin Wa and Hao Yu；金色獅子山碎點輪廓與香港天際線；右側圓角高樓；9.11.2025；ZHUOYUAN RESTAURANT HK；底部一排11:30AM/12PM/12:30PM",
       "duplicate_check": "商品ID未出現；雖同屬香港題材，但酒紅橫版、獅子山線與中部天際線構圖不同於WR-0009。",
@@ -655,7 +655,22 @@
         "address_y": 0.88,
         "times_y": 0.94
       },
-      "notes": "本款單張完整英文資料主面；無中文；不使用其他圖集封面。"
+      "notes": "本次只生成2張，採用第1張純文字參考重畫及第2張既有金線整理版；沒有改用花草題材。",
+      "generated_image_count": 2,
+      "final_reference_image_number": 1,
+      "final_variation_image_number": 2,
+      "production_method": {
+        "reference": "text_only_generation",
+        "variation": "image_edit_of_reference_draft_1"
+      },
+      "rejected_attempts": [],
+      "fidelity_note": "原圖轉文字重畫，保留酒紅橫版、獅子山輪廓及中部香港天際線分區；樓宇細節、部分字級與紙色深淺有重繪差異，不宣稱精確還原。",
+      "layer_check": "第2張整理既有金線：移除山線金點碎片、建築大部分窗格與密線，保留連貫山脊、建築主要輪廓及辨識結構；此款建築本身為金線，無另設彩印風景底層。酒紅紙底與紙紋、完整文字位置均保留。",
+      "variation_changes": [
+        "碎點山脊改成完整連貫線",
+        "城市密窗格及重複金線減少",
+        "保持城市輪廓、酒紅紙底與所有資訊排版"
+      ]
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
