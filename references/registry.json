@@ -2,7 +2,7 @@
   "schema_version": 2,
   "title": "喜帖原圖防重複紀錄",
   "updated_date": "2026-11-16",
-  "coverage": "已確認收錄本對話兩款；更早歷史原圖尚未全面補登，不能聲稱全部歷史已收錄。",
+  "coverage": "已確認收錄本對話三款；更早歷史原圖尚未全面補登。",
   "policy": {
     "before_selection": "每次下一款先讀此紀錄；比較商品編號、原圖及構圖特徵。",
     "same_product": "同商品已有款式先跳過；同商品確有不同款時，須目視證實並用不同款式ID記錄。",
@@ -48,6 +48,24 @@
       "exclude_from_next_reference": true,
       "notes": "只取最前面英文婚宴資料主面；同款不同角度／裁切亦屬重複。",
       "reference_image_path": "references/originals/WR-0002.jpg"
+    },
+    {
+      "id": "WR-0003",
+      "first_recorded_date": "2026-11-16",
+      "timezone": "Asia/Hong_Kong",
+      "shop": "喜加喜設計",
+      "platform": "taobao",
+      "product_id": "723132939961",
+      "source_url": "https://item.taobao.com/item.htm?id=723132939961",
+      "reference_image_filename": "WR-0003-original.jpg",
+      "reference_image_path": "references/originals/WR-0003.jpg",
+      "image_sha256": "753f1c9511647fcdca2f464e8bd3ee78bc0fb1d07523ee8028efdbf7a56a5561",
+      "visual_signature": "奶白珠光紙；四角細碎粉紅彩印花與金線花；左上縱向兩花、右上單花；底部沿邊花帶與中間獨立輪廓花；Cathy and Nicholas；NOV 30 2025；兩組時間",
+      "capture_method": "physical_pc_screenshot",
+      "status": "reference_selected_generation_pending",
+      "exclude_from_next_reference": true,
+      "duplicate_check": "商品編號未出現於現有紀錄，與 WR-0001 及 WR-0002 的構圖不同。",
+      "notes": "只取最前面英文婚宴主面；沒有使用後方酒紅封套。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
