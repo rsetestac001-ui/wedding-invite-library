@@ -2,7 +2,7 @@
   "schema_version": 2,
   "title": "喜帖原圖防重複紀錄",
   "updated_date": "2026-11-16",
-  "coverage": "已確認收錄本對話十款；更早歷史原圖尚未全面補登。",
+  "coverage": "已確認收錄本對話十一款；更早歷史原圖尚未全面補登。",
   "policy": {
     "before_selection": "每次下一款先讀此紀錄；比較商品編號、原圖及構圖特徵。",
     "same_product": "同商品已有款式先跳過；同商品確有不同款時，須目視證實並用不同款式ID記錄。",
@@ -601,6 +601,61 @@
         "右上新增一小組獨立空心金線花枝",
         "左下新增一小組獨立空心金線花枝"
       ]
+    },
+    {
+      "id": "WR-0011",
+      "first_recorded_date": "2026-11-16",
+      "timezone": "Asia/Hong_Kong",
+      "shop": "喜加喜設計",
+      "platform": "taobao",
+      "product_id": "733570144681",
+      "source_url": "https://item.taobao.com/item.htm?id=733570144681",
+      "reference_image_path": "references/originals/WR-0011.jpg",
+      "image_sha256": "dc501187f641b577ace01c33dcfdcd1cd2e12d461cc0b305a3dbd70e611d3367",
+      "capture_method": "physical_pc_screenshot",
+      "status": "reference_saved_generation_pending",
+      "exclude_from_next_reference": true,
+      "visual_signature": "酒紅橫版；Hui Yin Wa and Hao Yu；金色獅子山碎點輪廓與香港天際線；右側圓角高樓；9.11.2025；ZHUOYUAN RESTAURANT HK；底部一排11:30AM/12PM/12:30PM",
+      "duplicate_check": "商品ID未出現；雖同屬香港題材，但酒紅橫版、獅子山線與中部天際線構圖不同於WR-0009。",
+      "gold_mode": "已有金線；整理獅子山碎點及建築密線，不加花草或新框",
+      "measurement_basis": "單張英文主面四角校正約3:2橫版；主要比例目視估算。",
+      "measurements": {
+        "aspect_ratio_estimate": 1.5,
+        "family_y": 0.065,
+        "names_bbox": [
+          0.17,
+          0.11,
+          0.7,
+          0.1
+        ],
+        "invitation_y": [
+          0.27,
+          0.3
+        ],
+        "mountain_bbox": [
+          0,
+          0.32,
+          1,
+          0.34
+        ],
+        "date_y": 0.48,
+        "skyline_bbox": [
+          0.03,
+          0.51,
+          0.97,
+          0.27
+        ],
+        "right_tower_bbox": [
+          0.77,
+          0.28,
+          0.05,
+          0.48
+        ],
+        "venue_y": 0.84,
+        "address_y": 0.88,
+        "times_y": 0.94
+      },
+      "notes": "本款單張完整英文資料主面；無中文；不使用其他圖集封面。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
