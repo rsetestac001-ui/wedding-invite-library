@@ -2,7 +2,7 @@
   "schema_version": 2,
   "title": "喜帖原圖防重複紀錄",
   "updated_date": "2026-11-16",
-  "coverage": "已確認收錄本對話九款；更早歷史原圖尚未全面補登。",
+  "coverage": "已確認收錄本對話十款；更早歷史原圖尚未全面補登。",
   "policy": {
     "before_selection": "每次下一款先讀此紀錄；比較商品編號、原圖及構圖特徵。",
     "same_product": "同商品已有款式先跳過；同商品確有不同款時，須目視證實並用不同款式ID記錄。",
@@ -510,6 +510,69 @@
       ],
       "fidelity_note": "保留奶白紙、兩角花枝與城市高樓分區及完整文案的設計重畫；花形、樓宇細節與部分資訊位置仍與原帖有差異，不宣稱精確還原。",
       "layer_check": "第4張沿第3張編輯，保留灰褐花瓣細線、葉脈、建築窗格、山體排線及海面船隻；整理金色花瓣外線與選定建築外線，移除金色小點及窗格碎金，沒有擦白底圖。"
+    },
+    {
+      "id": "WR-0010",
+      "first_recorded_date": "2026-11-16",
+      "timezone": "Asia/Hong_Kong",
+      "shop": "喜加喜設計",
+      "platform": "taobao",
+      "product_id": "1055809061318",
+      "source_url": "https://item.taobao.com/item.htm?id=1055809061318",
+      "reference_image_path": "references/originals/WR-0010.jpg",
+      "image_sha256": "41e0e6c61731bac0d7ac1e9706cd5699826527a562b2581fd049a74d0d256bb0",
+      "capture_method": "physical_pc_screenshot",
+      "status": "reference_saved_generation_pending",
+      "exclude_from_next_reference": true,
+      "visual_signature": "Miley & Jack；純白底；四邊橢圓碎花彩印；粉黃藍小花與綠葉；頂部站立新人；金色姓名日期；15NOV2026；Sheraton Hong Kong；6/7/8PM",
+      "duplicate_check": "商品編號未出現，彩印碎花環及上方站立新人構圖與前九款不同。",
+      "gold_mode": "原圖無裝飾金線；姓名及日期金字不算；第二張才新增協調的小型空心花枝金線。",
+      "measurement_basis": "以最前方白色英文主面四角校正，照片比例估計近A5/5:7；未知實際紙張尺寸，不宣稱精密量度。",
+      "measurements": {
+        "aspect_ratio_estimate": 0.714,
+        "floral_outer_bbox": [
+          0,
+          0.02,
+          1,
+          0.96
+        ],
+        "side_border_width_range": [
+          0.1,
+          0.19
+        ],
+        "largest_flower_width_range": [
+          0.08,
+          0.1
+        ],
+        "portrait_bbox": [
+          0.3,
+          0.12,
+          0.32,
+          0.245
+        ],
+        "names_bbox": [
+          0.18,
+          0.27,
+          0.65,
+          0.09
+        ],
+        "invitation_y": [
+          0.415,
+          0.44
+        ],
+        "date_y": 0.505,
+        "venue_y": [
+          0.585,
+          0.61,
+          0.63
+        ],
+        "icons_y": 0.73,
+        "timing_y": [
+          0.77,
+          0.79
+        ]
+      },
+      "notes": "只用最前面完整英文資料主面；不取粉色中文卡及酒紅封套；本次圖集第三張為完整原圖，同款其他近照核對文案。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
