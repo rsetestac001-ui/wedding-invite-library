@@ -134,10 +134,31 @@
       "image_sha256": "236e9f2ac01cfc2623b7d2e656b5a87ed7fa10a0de77a5ac6733e845c98128eb",
       "visual_signature": "Yau and Simon；奶白珠光直身卡；兩邊不對稱細金色花葉、蝴蝶、左下雀鳥；MAY25SUNDAY2025；The Mira Hong Kong；兩欄時間圖示",
       "capture_method": "physical_pc_screenshot",
-      "status": "reference_saved_generation_pending",
+      "status": "completed_two_designs",
       "exclude_from_next_reference": true,
       "duplicate_check": "商品編號與構圖均不同於WR-0001至0004。",
-      "notes": "使用最前方完整英文主面；不使用後方酒紅中文背面。原圖已有金色裝飾，變奏採整理既有金線模式。"
+      "notes": "使用最前方完整英文主面；不使用後方酒紅中文背面。原圖已有金色裝飾，變奏採整理既有金線模式。",
+      "generated_image_count": 3,
+      "final_reference_image_number": 2,
+      "final_variation_image_number": 3,
+      "production_method": {
+        "reference": "text_only_generation",
+        "variation": "image_edit_of_accepted_reference"
+      },
+      "rejected_attempts": [
+        {
+          "image_number": 1,
+          "reason": "花頭及字體偏大；按原帖沿邊細花與中央留白比例收細後純文字重生。"
+        }
+      ],
+      "gold_mode": "原圖已有金色裝飾：整理既有金線",
+      "layer_check": "變奏保留花瓣細摺線、葉脈及雀鳥羽毛的非金屬印刷細節；金色裝飾為細空心線，沒有白色遮罩。",
+      "variation_changes": [
+        "花葉改成左側開放弧形",
+        "雀鳥移至右下並轉向內",
+        "右側連續花帶移除，改為獨立蝴蝶與小枝花"
+      ],
+      "fidelity_note": "依目視描述作設計重畫，非逐像素複製；上方小花與細節有差異。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
