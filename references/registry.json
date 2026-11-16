@@ -2,7 +2,7 @@
   "schema_version": 2,
   "title": "喜帖原圖防重複紀錄",
   "updated_date": "2026-11-16",
-  "coverage": "已確認收錄本對話三款；更早歷史原圖尚未全面補登。",
+  "coverage": "已確認收錄本對話四款；更早歷史原圖尚未全面補登。",
   "policy": {
     "before_selection": "每次下一款先讀此紀錄；比較商品編號、原圖及構圖特徵。",
     "same_product": "同商品已有款式先跳過；同商品確有不同款時，須目視證實並用不同款式ID記錄。",
@@ -88,6 +88,24 @@
         }
       ],
       "correction_note": "第5張按用戶回饋修復彩印底層，右上花與底部花加強粉彩、彩色花瓣紋理及明暗；金箔空心不等於彩印留白。屬按用戶要求修復／補繪，不宣稱逐像素還原原帖。"
+    },
+    {
+      "id": "WR-0004",
+      "first_recorded_date": "2026-11-16",
+      "timezone": "Asia/Hong_Kong",
+      "shop": "喜加喜設計",
+      "platform": "taobao",
+      "product_id": "944258050100",
+      "source_url": "https://item.taobao.com/item.htm?id=944258050100",
+      "reference_image_filename": "WR-0004-original.jpg",
+      "reference_image_path": "references/originals/WR-0004.jpg",
+      "image_sha256": "efd20729842cdcf65348cc7149fe75a2b0782f5276df874d45efeb2371deebd9",
+      "visual_signature": "米白主帖；右上及左下細緻暖灰金色植物線稿；Wilson and Jennie；酒紅日期及三欄圖示時間；右上與左下切角；酒紅雀鳥封套不作主帖參考",
+      "capture_method": "physical_pc_screenshot",
+      "status": "reference_selected_generation_pending",
+      "exclude_from_next_reference": true,
+      "duplicate_check": "商品ID未出現；與前三款的裝飾、姓名、文字層次及留白不同。",
+      "notes": "只取白色英文婚宴資料主面；原帖時間6:00PM reception、6:30PM ceremony、8:00PM banquet。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
