@@ -2,7 +2,7 @@
   "schema_version": 2,
   "title": "喜帖原圖防重複紀錄",
   "updated_date": "2026-11-16",
-  "coverage": "已確認收錄本對話四款；更早歷史原圖尚未全面補登。",
+  "coverage": "已確認收錄本對話五款；更早歷史原圖尚未全面補登。",
   "policy": {
     "before_selection": "每次下一款先讀此紀錄；比較商品編號、原圖及構圖特徵。",
     "same_product": "同商品已有款式先跳過；同商品確有不同款時，須目視證實並用不同款式ID記錄。",
@@ -120,6 +120,24 @@
         }
       ],
       "layer_check": "變奏保留原有灰褐色非金屬植物線稿、花瓣摺線、葉脈及淡陰影；僅整理少量外層金線。"
+    },
+    {
+      "id": "WR-0005",
+      "first_recorded_date": "2026-11-16",
+      "timezone": "Asia/Hong_Kong",
+      "shop": "喜加喜設計",
+      "platform": "taobao",
+      "product_id": "811268024301",
+      "source_url": "https://item.taobao.com/item.htm?id=811268024301",
+      "reference_image_filename": "WR-0005-original.jpg",
+      "reference_image_path": "references/originals/WR-0005.jpg",
+      "image_sha256": "236e9f2ac01cfc2623b7d2e656b5a87ed7fa10a0de77a5ac6733e845c98128eb",
+      "visual_signature": "Yau and Simon；奶白珠光直身卡；兩邊不對稱細金色花葉、蝴蝶、左下雀鳥；MAY25SUNDAY2025；The Mira Hong Kong；兩欄時間圖示",
+      "capture_method": "physical_pc_screenshot",
+      "status": "reference_saved_generation_pending",
+      "exclude_from_next_reference": true,
+      "duplicate_check": "商品編號與構圖均不同於WR-0001至0004。",
+      "notes": "使用最前方完整英文主面；不使用後方酒紅中文背面。原圖已有金色裝飾，變奏採整理既有金線模式。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
