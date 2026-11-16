@@ -66,9 +66,9 @@
       "exclude_from_next_reference": true,
       "duplicate_check": "商品編號未出現於現有紀錄，與 WR-0001 及 WR-0002 的構圖不同。",
       "notes": "只取最前面英文婚宴主面；沒有使用後方酒紅封套。",
-      "generated_image_count": 4,
+      "generated_image_count": 5,
       "final_reference_image_number": 2,
-      "final_variation_image_number": 4,
+      "final_variation_image_number": 5,
       "production_method": {
         "reference": "text_only_generation",
         "variation": "image_edit_of_accepted_reference"
@@ -81,8 +81,13 @@
         {
           "image_number": 3,
           "reason": "金線刪減過多，花形變得過於規整；從合格第2張重新編輯，保留自然輪廓與少量摺線。"
+        },
+        {
+          "image_number": 4,
+          "reason": "用戶指出簡化金線時連底下彩印亦被削弱／留白；保留已接受金線後補回彩印細節。"
         }
-      ]
+      ],
+      "correction_note": "第5張按用戶回饋修復彩印底層，右上花與底部花加強粉彩、彩色花瓣紋理及明暗；金箔空心不等於彩印留白。屬按用戶要求修復／補繪，不宣稱逐像素還原原帖。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
