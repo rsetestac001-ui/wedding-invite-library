@@ -683,7 +683,7 @@
       "reference_image_path": "references/originals/WR-0012.jpg",
       "image_sha256": "9fd7b98ff8a363390d223b659907a083ed7e1be6849540c524a1434a913b5170",
       "capture_method": "physical_pc_screenshot",
-      "status": "reference_saved_generation_pending",
+      "status": "completed_two_design_drafts",
       "exclude_from_next_reference": true,
       "visual_signature": "Bnisah & Rilson；白色紙紋；金色古典四角卷草及雙線邊框；Saturday15November2025；Hilton Garden Inn Mongkok；5:30Ceremony/6Reception/8Banquet",
       "duplicate_check": "商品ID未出現；古典卷草四角框與前十一款不同。",
@@ -728,7 +728,36 @@
           0.88
         ]
       },
-      "notes": "只取白色英文資料主面；不把紅色中文封套、龍紋、紅信封或莓果當作主帖圖案。"
+      "notes": "共5張採用第4與第5張；只參考完整白色英文主面，不取紅封套裝飾。",
+      "generated_image_count": 5,
+      "final_reference_image_number": 4,
+      "final_variation_image_number": 5,
+      "production_method": {
+        "reference": "text_only_generation",
+        "variation": "image_edit_of_reference_draft_4"
+      },
+      "rejected_attempts": [
+        {
+          "image_number": 1,
+          "reason": "底部圖示偏大，需收細及微移。"
+        },
+        {
+          "image_number": 2,
+          "reason": "新增原圖沒有的外層方框。"
+        },
+        {
+          "image_number": 3,
+          "reason": "卷草過疏，Rilson字幅偏大。"
+        }
+      ],
+      "fidelity_note": "參考版依原圖文字描述重畫；第4稿保留白底古典四角卷草與資訊分區，但卷紋細節、部分字級與原帖仍有差異，不宣稱精密還原。",
+      "layer_check": "第5張整理既有金色卷草與拱門細節，移除細小重複卷圈與金點，保留主要完整連貫C/S線。白紙紋理與全部文字、日期、時間及位置保留；本款金線落在紙底，沒有另設彩印花卉。",
+      "variation_changes": [
+        "整理四角古典金線卷草",
+        "減少細碎金點與重複小圈",
+        "連接角落與原有雙線邊框",
+        "整理拱門金色細葉與重複線，保留圖示位置"
+      ]
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
