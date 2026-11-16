@@ -2,7 +2,7 @@
   "schema_version": 2,
   "title": "喜帖原圖防重複紀錄",
   "updated_date": "2026-11-16",
-  "coverage": "已確認收錄本對話八款；更早歷史原圖尚未全面補登。",
+  "coverage": "已確認收錄本對話九款；更早歷史原圖尚未全面補登。",
   "policy": {
     "before_selection": "每次下一款先讀此紀錄；比較商品編號、原圖及構圖特徵。",
     "same_product": "同商品已有款式先跳過；同商品確有不同款時，須目視證實並用不同款式ID記錄。",
@@ -410,6 +410,87 @@
         "移除碎金點及斷碎排線",
         "保持雪山與雲霧彩印構圖不變"
       ]
+    },
+    {
+      "id": "WR-0009",
+      "first_recorded_date": "2026-11-16",
+      "timezone": "Asia/Hong_Kong",
+      "shop": "喜加喜設計",
+      "platform": "taobao",
+      "product_id": "1063238751863",
+      "source_url": "https://item.taobao.com/item.htm?id=1063238751863",
+      "reference_image_path": "references/originals/WR-0009.jpg",
+      "image_sha256": "9ba664acfe4a8f507d1672507fcae84e129a1e3ca848747971fd61baf7125884",
+      "capture_method": "physical_pc_screenshot",
+      "status": "reference_saved_generation_pending",
+      "exclude_from_next_reference": true,
+      "visual_signature": "Aanisah and Wilson；奶白壓紋紙；頂部兩側細花枝；底部維港建築與右側高樓金灰線稿；SAT15NOV2025；Hilton Garden Inn Mongkok；上午三欄",
+      "duplicate_check": "商品ID未出現，與前八款圖案、姓名及資訊分區不同。",
+      "gold_mode": "整理既有花枝及城市金線，保留可見灰褐細線與紙紋",
+      "measurement_basis": "以最前方單一英文主面四角作透視校正約2:3，比例採目視估算；同款放大圖核對文案。",
+      "measurements": {
+        "left_flower_group_bbox": [
+          0,
+          0,
+          0.4,
+          0.3
+        ],
+        "right_flower_group_bbox": [
+          0.6,
+          0,
+          0.4,
+          0.3
+        ],
+        "largest_flower_visible_width_range": [
+          0.18,
+          0.22
+        ],
+        "family_y": [
+          0.1,
+          0.125
+        ],
+        "names_bbox": [
+          0.2,
+          0.19,
+          0.6,
+          0.18
+        ],
+        "invitation_y": [
+          0.445,
+          0.47
+        ],
+        "date_y": 0.52,
+        "venue_y": [
+          0.57,
+          0.6,
+          0.625,
+          0.65
+        ],
+        "icons_y": 0.7,
+        "times_y": [
+          0.735,
+          0.755
+        ],
+        "city_base_bbox": [
+          0,
+          0.82,
+          1,
+          0.18
+        ],
+        "right_tower_bbox": [
+          0.82,
+          0.55,
+          0.17,
+          0.44
+        ],
+        "left_tower_bbox": [
+          0.05,
+          0.75,
+          0.07,
+          0.17
+        ]
+      },
+      "notes": "只取最前方完整英文白帖，忽略酒紅封套、金色封面及道具。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
