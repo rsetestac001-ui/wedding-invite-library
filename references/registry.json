@@ -2,7 +2,7 @@
   "schema_version": 2,
   "title": "喜帖原圖防重複紀錄",
   "updated_date": "2026-11-16",
-  "coverage": "已確認收錄本對話十一款；更早歷史原圖尚未全面補登。",
+  "coverage": "已確認收錄本對話十二款；更早歷史原圖尚未全面補登。",
   "policy": {
     "before_selection": "每次下一款先讀此紀錄；比較商品編號、原圖及構圖特徵。",
     "same_product": "同商品已有款式先跳過；同商品確有不同款時，須目視證實並用不同款式ID記錄。",
@@ -671,6 +671,64 @@
         "城市密窗格及重複金線減少",
         "保持城市輪廓、酒紅紙底與所有資訊排版"
       ]
+    },
+    {
+      "id": "WR-0012",
+      "first_recorded_date": "2026-11-16",
+      "timezone": "Asia/Hong_Kong",
+      "shop": "喜加喜設計",
+      "platform": "taobao",
+      "product_id": "1059637557377",
+      "source_url": "https://item.taobao.com/item.htm?id=1059637557377",
+      "reference_image_path": "references/originals/WR-0012.jpg",
+      "image_sha256": "9fd7b98ff8a363390d223b659907a083ed7e1be6849540c524a1434a913b5170",
+      "capture_method": "physical_pc_screenshot",
+      "status": "reference_saved_generation_pending",
+      "exclude_from_next_reference": true,
+      "visual_signature": "Bnisah & Rilson；白色紙紋；金色古典四角卷草及雙線邊框；Saturday15November2025；Hilton Garden Inn Mongkok；5:30Ceremony/6Reception/8Banquet",
+      "duplicate_check": "商品ID未出現；古典卷草四角框與前十一款不同。",
+      "gold_mode": "整理既有古典卷草金線，不新增花草、不重排文字",
+      "measurement_basis": "圖集第二張最前方完整英文白帖，四角透視校正約2:3；同款第三張近照核對文案；主要比例目視估算。",
+      "measurements": {
+        "aspect_ratio_estimate": 0.667,
+        "frame_bbox": [
+          0.025,
+          0.02,
+          0.95,
+          0.96
+        ],
+        "corner_width_range": [
+          0.27,
+          0.33
+        ],
+        "corner_height_range": [
+          0.16,
+          0.2
+        ],
+        "family_y": 0.115,
+        "names_bbox": [
+          0.28,
+          0.16,
+          0.44,
+          0.26
+        ],
+        "invitation_y": [
+          0.48,
+          0.51
+        ],
+        "date_y": 0.56,
+        "venue_y": [
+          0.62,
+          0.65,
+          0.67
+        ],
+        "icons_y": 0.79,
+        "timing_y": [
+          0.86,
+          0.88
+        ]
+      },
+      "notes": "只取白色英文資料主面；不把紅色中文封套、龍紋、紅信封或莓果當作主帖圖案。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
