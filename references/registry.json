@@ -522,7 +522,7 @@
       "reference_image_path": "references/originals/WR-0010.jpg",
       "image_sha256": "41e0e6c61731bac0d7ac1e9706cd5699826527a562b2581fd049a74d0d256bb0",
       "capture_method": "physical_pc_screenshot",
-      "status": "reference_saved_generation_pending",
+      "status": "completed_two_design_drafts",
       "exclude_from_next_reference": true,
       "visual_signature": "Miley & Jack；純白底；四邊橢圓碎花彩印；粉黃藍小花與綠葉；頂部站立新人；金色姓名日期；15NOV2026；Sheraton Hong Kong；6/7/8PM",
       "duplicate_check": "商品編號未出現，彩印碎花環及上方站立新人構圖與前九款不同。",
@@ -572,7 +572,35 @@
           0.79
         ]
       },
-      "notes": "只用最前面完整英文資料主面；不取粉色中文卡及酒紅封套；本次圖集第三張為完整原圖，同款其他近照核對文案。"
+      "notes": "金色姓名與日期不是裝飾金線，故第一張花葉保持純彩印，只有第二張新增金線；共5張採用第4與第5張。",
+      "generated_image_count": 5,
+      "final_reference_image_number": 4,
+      "final_variation_image_number": 5,
+      "production_method": {
+        "reference": "text_only_generation",
+        "variation": "image_edit_of_reference_draft_4"
+      },
+      "rejected_attempts": [
+        {
+          "image_number": 1,
+          "reason": "人像與花朵偏大，推低姓名及資料。"
+        },
+        {
+          "image_number": 2,
+          "reason": "縮小過度，碎花變得過疏且人像偏細。"
+        },
+        {
+          "image_number": 3,
+          "reason": "補回花量後人像再次放大。"
+        }
+      ],
+      "fidelity_note": "採用第4稿作參考設計重畫；人像與花朵尺度較接近，花枝形態、位置及部分字級與原帖仍有差異，不宣稱精確還原。",
+      "layer_check": "第5張只新增右上與左下兩組協調金線花枝；原有粉黃藍花、綠葉彩印漸層、葉脈、人物衣褶及全部文字位置保留。金線空心、內部為原紙底；沒有將彩印刪白或全部沿邊描金。",
+      "variation_changes": [
+        "原圖無裝飾金線；採新增模式",
+        "右上新增一小組獨立空心金線花枝",
+        "左下新增一小組獨立空心金線花枝"
+      ]
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
