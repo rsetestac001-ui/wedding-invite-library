@@ -172,7 +172,7 @@
       "image_sha256": "7293d25e2cf1c7191a09344d4a9c4605388d7c7d4af72cfc9b61ac7dae05eb0a",
       "visual_signature": "Gigi & Jarvis；上方坐姿新人水彩；兩側橄欖綠葉片配獨立金線花葉；2026年10月3日；Park Lane；三欄圖示時間",
       "capture_method": "physical_pc_screenshot",
-      "status": "reference_saved_generation_pending",
+      "status": "referenced_redraw_failed",
       "exclude_from_next_reference": true,
       "duplicate_check": "商品編號不在前五款，人物主題與構圖不同。",
       "gold_mode": "整理既有金線，保留完整彩印及原位置",
@@ -213,7 +213,37 @@
           0.667
         ],
         "timing_icons_y": 0.86
-      }
+      },
+      "generated_image_count": 5,
+      "production_method": {
+        "reference": "text_only_generation",
+        "variation": "not_generated_reference_not_accepted"
+      },
+      "rejected_attempts": [
+        {
+          "image_number": 1,
+          "reason": "人像約七成帖寬，原圖約五成；姓名偏闊，戒指漏鑽石。"
+        },
+        {
+          "image_number": 2,
+          "reason": "人像仍過大並推低姓名及資料位置。"
+        },
+        {
+          "image_number": 3,
+          "reason": "人像偏低且高度不足；姓名與日期過闊。"
+        },
+        {
+          "image_number": 4,
+          "reason": "文字尺度改善，但人像再度過大。"
+        },
+        {
+          "image_number": 5,
+          "reason": "人像尺度接近，但姓名與日期過闊，兩側彩印與金線分布未達參考相似度。"
+        }
+      ],
+      "final_reference_image_number": null,
+      "final_variation_image_number": null,
+      "notes": "五稿全為純文字重生，沒有使用原圖作生成輸入。未通過相似度關卡，故未進行金線圖像編輯。保留已參考紀錄，下次預設跳過。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
