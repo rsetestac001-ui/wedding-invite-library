@@ -344,7 +344,7 @@
       "reference_image_path": "references/originals/WR-0008.jpg",
       "image_sha256": "39c034f6cd123738265683c67190b23ddb671200d99bf0e1ab38efb26cf294a7",
       "capture_method": "physical_pc_screenshot",
-      "status": "reference_saved_generation_pending",
+      "status": "completed_two_design_drafts",
       "exclude_from_next_reference": true,
       "visual_signature": "Janet & Fredie；淡藍銀灰雲霧水彩紙底；上方富士山雪峰與碎金山脊；金點；NOV16 2030；HARBOUR GRAND KOWLOON；三欄6/7/8PM",
       "gold_mode": "整理原圖既有山脊碎金與金點，非新增花草",
@@ -383,7 +383,33 @@
           0.96
         ]
       },
-      "notes": "最前方完整英文主面；後方中文主面與藍封套忽略。細字另以同款放大圖核實。"
+      "notes": "同次先WR-0007四張失敗，再WR-0008四張，共8張。最終使用本次第6張參考設計稿及第8張金線編輯稿；屬版式有偏差的概念設計。",
+      "generated_image_count": 4,
+      "final_reference_image_number": 2,
+      "final_variation_image_number": 4,
+      "overall_run_reference_image_number": 6,
+      "overall_run_variation_image_number": 8,
+      "production_method": {
+        "reference": "text_only_generation",
+        "variation": "image_edit_of_reference_draft_2"
+      },
+      "rejected_attempts": [
+        {
+          "image_number": 1,
+          "reason": "山體偏闊，資料偏高及藍色偏鮮。"
+        },
+        {
+          "image_number": 3,
+          "reason": "資料過度下移，中央出現過多空白，故採用第2稿。"
+        }
+      ],
+      "fidelity_note": "參考重畫為設計稿；第2稿雪山尺寸與上下分區接近，但細字位置仍較原圖高，未宣稱逐像素或精確版式還原。",
+      "layer_check": "金線變奏移除空中金點及斷碎金箔，改為兩條山脊連續細線；保留藍灰雲霧、完整白雪山脊、藍色山溝、非金屬水彩明暗與全部文字位置。",
+      "variation_changes": [
+        "整理既有山脊金線",
+        "移除碎金點及斷碎排線",
+        "保持雪山與雲霧彩印構圖不變"
+      ]
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
