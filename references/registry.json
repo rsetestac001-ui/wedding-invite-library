@@ -2,7 +2,7 @@
   "schema_version": 2,
   "title": "喜帖原圖防重複紀錄",
   "updated_date": "2026-11-16",
-  "coverage": "已確認收錄本對話六款；更早歷史原圖尚未全面補登。",
+  "coverage": "已確認收錄本對話七款；更早歷史原圖尚未全面補登。",
   "policy": {
     "before_selection": "每次下一款先讀此紀錄；比較商品編號、原圖及構圖特徵。",
     "same_product": "同商品已有款式先跳過；同商品確有不同款時，須目視證實並用不同款式ID記錄。",
@@ -244,6 +244,73 @@
       "final_reference_image_number": null,
       "final_variation_image_number": null,
       "notes": "五稿全為純文字重生，沒有使用原圖作生成輸入。未通過相似度關卡，故未進行金線圖像編輯。保留已參考紀錄，下次預設跳過。"
+    },
+    {
+      "id": "WR-0007",
+      "first_recorded_date": "2026-11-16",
+      "timezone": "Asia/Hong_Kong",
+      "shop": "喜加喜設計",
+      "platform": "taobao",
+      "product_id": "929202669718",
+      "source_url": "https://item.taobao.com/item.htm?id=929202669718",
+      "reference_image_path": "references/originals/WR-0007.jpg",
+      "image_sha256": "9d5ad820174543b4503561b6c37f134a1ce39dd5016e13785336c529cb379df6",
+      "capture_method": "physical_pc_screenshot",
+      "visual_signature": "Chong & Mong；白底；兩側空心金線花枝配極淡灰綠彩印葉；底部33 Glasserie草地座椅花拱門場地水彩；NOV29 2025；三欄時間",
+      "status": "reference_saved_generation_pending",
+      "exclude_from_next_reference": true,
+      "gold_mode": "整理原有金線",
+      "duplicate_check": "商品ID未用；與WR-0002同屬場地類，但原圖水彩為座椅草地花拱門，非GLAM建築，金線與文字構圖不同。",
+      "measurement_basis": "近乎正面主帖單獨裁切；寬284高427，約2:3；相對位置採目視估算。",
+      "measurements": {
+        "name_group_bbox": [
+          0.25,
+          0.085,
+          0.5,
+          0.16
+        ],
+        "left_flower_bbox": [
+          0,
+          0.405,
+          0.15,
+          0.1
+        ],
+        "right_middle_flower_bbox": [
+          0.9,
+          0.45,
+          0.1,
+          0.07
+        ],
+        "bottom_scene_bbox": [
+          0.04,
+          0.665,
+          0.92,
+          0.325
+        ],
+        "gold_border_width_range": [
+          0.13,
+          0.22
+        ],
+        "invitation_y": [
+          0.27,
+          0.29
+        ],
+        "date_y": [
+          0.335,
+          0.38
+        ],
+        "venue_y": [
+          0.44,
+          0.47,
+          0.49
+        ],
+        "timing_y": [
+          0.55,
+          0.59,
+          0.615
+        ]
+      },
+      "notes": "只取最前面白色英文完整資料主面；後方酒紅中文背面及信封忽略。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
