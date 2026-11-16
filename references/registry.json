@@ -102,10 +102,24 @@
       "image_sha256": "efd20729842cdcf65348cc7149fe75a2b0782f5276df874d45efeb2371deebd9",
       "visual_signature": "米白主帖；右上及左下細緻暖灰金色植物線稿；Wilson and Jennie；酒紅日期及三欄圖示時間；右上與左下切角；酒紅雀鳥封套不作主帖參考",
       "capture_method": "physical_pc_screenshot",
-      "status": "reference_selected_generation_pending",
+      "status": "completed_two_designs",
       "exclude_from_next_reference": true,
       "duplicate_check": "商品ID未出現；與前三款的裝飾、姓名、文字層次及留白不同。",
-      "notes": "只取白色英文婚宴資料主面；原帖時間6:00PM reception、6:30PM ceremony、8:00PM banquet。"
+      "notes": "只取白色英文婚宴資料主面；原帖時間6:00PM reception、6:30PM ceremony、8:00PM banquet。",
+      "generated_image_count": 3,
+      "final_reference_image_number": 2,
+      "final_variation_image_number": 3,
+      "production_method": {
+        "reference": "text_only_generation",
+        "variation": "image_edit_of_accepted_reference"
+      },
+      "rejected_attempts": [
+        {
+          "image_number": 1,
+          "reason": "家庭字句、部分正文及花頭偏大；按原帖層次收細後以純文字重生。"
+        }
+      ],
+      "layer_check": "變奏保留原有灰褐色非金屬植物線稿、花瓣摺線、葉脈及淡陰影；僅整理少量外層金線。"
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
