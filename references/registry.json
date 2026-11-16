@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "title": "喜帖原圖防重複紀錄",
+  "updated_date": "2026-11-16",
+  "coverage": "已確認收錄本對話兩款；更早歷史原圖尚未全面補登，不能聲稱全部歷史已收錄。",
+  "policy": {
+    "before_selection": "每次下一款先讀此紀錄；比較商品編號、原圖及構圖特徵。",
+    "same_product": "同商品已有款式先跳過；同商品確有不同款時，須目視證實並用不同款式ID記錄。",
+    "same_design": "同款換角度、裁切、配件或換商品連結仍視為重複。",
+    "hash_limit": "SHA256僅識別完全相同檔案；不能取代目視查重。",
+    "write_timing": "找到合格原圖即保存並登記，即使重畫失敗也列為已參考；完成後更新結果。",
+    "updates": "更新同一個紀錄檔，保留既有條目及其永久ID；不得每次另建新表。",
+    "exceptions": "只有用戶明確要求重做舊款時才再次使用。"
+  },
+  "references": [
+    {
+      "id": "WR-0001",
+      "first_recorded_date": "2026-11-16",
+      "timezone": "Asia/Hong_Kong",
+      "shop": "喜加喜設計",
+      "platform": "taobao",
+      "product_id": "678049182777",
+      "source_url": "https://item.taobao.com/item.htm?id=678049182777",
+      "reference_image_filename": "xijiaxi-reference.png",
+      "reference_image_library_file_id": "libfile_13388f1773048191adc3bac4f2d3ee9d",
+      "image_sha256": "31524556c0f9b4aa540a714b3b920f045af4039f0a62b113e7df90bc8e4ce19c",
+      "visual_signature": "米白底；上方兩側橄欖綠長葉；右側半朵淡桃花；底部兩朵淡桃／奶白重瓣花；Cintia / David；日期及兩欄時間",
+      "capture_method": "physical_pc_screenshot",
+      "status": "referenced_redraw_failed",
+      "exclude_from_next_reference": true,
+      "notes": "只取最前面英文婚宴資料主面；同款不同角度／裁切亦屬重複。",
+      "reference_image_path": "references/originals/WR-0001.png"
+    },
+    {
+      "id": "WR-0002",
+      "first_recorded_date": "2026-11-16",
+      "timezone": "Asia/Hong_Kong",
+      "shop": "喜加喜設計",
+      "platform": "taobao",
+      "product_id": "919964342774",
+      "source_url": "https://item.taobao.com/item.htm?id=919964342774",
+      "reference_image_filename": "xijiaxi-glam-reference.jpg",
+      "reference_image_library_file_id": "libfile_2974712bd58081919c37a81fe1840c58",
+      "image_sha256": "665a8cda7294c0c53bfff4eb3e7e5322ad156d63fb2d08bcc279b99a99fe7c6a",
+      "visual_signature": "The GLAM；灰綠實心葉與獨立空心金線枝花；底部婚宴場地水彩畫；Connie & Leo；三欄時間",
+      "capture_method": "physical_pc_screenshot",
+      "status": "completed_two_designs",
+      "exclude_from_next_reference": true,
+      "notes": "只取最前面英文婚宴資料主面；同款不同角度／裁切亦屬重複。",
+      "reference_image_path": "references/originals/WR-0002.jpg"
+    }
+  ],
+  "canonical_repository": "rsetestac001-ui/wedding-invite-library",
+  "canonical_registry_path": "references/registry.json"
+}
