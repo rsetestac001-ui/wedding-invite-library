@@ -2,7 +2,7 @@
   "schema_version": 2,
   "title": "喜帖原圖防重複紀錄",
   "updated_date": "2026-11-16",
-  "coverage": "已確認收錄本對話五款；更早歷史原圖尚未全面補登。",
+  "coverage": "已確認收錄本對話六款；更早歷史原圖尚未全面補登。",
   "policy": {
     "before_selection": "每次下一款先讀此紀錄；比較商品編號、原圖及構圖特徵。",
     "same_product": "同商品已有款式先跳過；同商品確有不同款時，須目視證實並用不同款式ID記錄。",
@@ -159,6 +159,61 @@
         "右側連續花帶移除，改為獨立蝴蝶與小枝花"
       ],
       "fidelity_note": "依目視描述作設計重畫，非逐像素複製；上方小花與細節有差異。"
+    },
+    {
+      "id": "WR-0006",
+      "first_recorded_date": "2026-11-16",
+      "timezone": "Asia/Hong_Kong",
+      "shop": "喜加喜設計",
+      "platform": "taobao",
+      "product_id": "955342399707",
+      "source_url": "https://item.taobao.com/item.htm?id=955342399707",
+      "reference_image_path": "references/originals/WR-0006.jpg",
+      "image_sha256": "7293d25e2cf1c7191a09344d4a9c4605388d7c7d4af72cfc9b61ac7dae05eb0a",
+      "visual_signature": "Gigi & Jarvis；上方坐姿新人水彩；兩側橄欖綠葉片配獨立金線花葉；2026年10月3日；Park Lane；三欄圖示時間",
+      "capture_method": "physical_pc_screenshot",
+      "status": "reference_saved_generation_pending",
+      "exclude_from_next_reference": true,
+      "duplicate_check": "商品編號不在前五款，人物主題與構圖不同。",
+      "gold_mode": "整理既有金線，保留完整彩印及原位置",
+      "measurement_basis": "按接近正面的原帖四角透視校正；約2:3，細節採目視估算範圍。",
+      "measurements": {
+        "portrait_bbox": [
+          0.24,
+          0.07,
+          0.52,
+          0.36
+        ],
+        "left_decoration_width_range": [
+          0.13,
+          0.2
+        ],
+        "right_decoration_width_range": [
+          0.14,
+          0.21
+        ],
+        "left_outline_flower_bbox": [
+          0.01,
+          0.48,
+          0.15,
+          0.08
+        ],
+        "right_outline_flower_bbox": [
+          0.83,
+          0.78,
+          0.17,
+          0.13
+        ],
+        "names_center": [
+          0.5,
+          0.49
+        ],
+        "date_center": [
+          0.5,
+          0.667
+        ],
+        "timing_icons_y": 0.86
+      }
     }
   ],
   "canonical_repository": "rsetestac001-ui/wedding-invite-library",
